@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/agree_form/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/agree_form/static/js/main.b40f408f.chunk.js",
+    "main.js.map": "/agree_form/static/js/main.b40f408f.chunk.js.map",
+    "runtime-main.js": "/agree_form/static/js/runtime-main.a5e53479.js",
+    "runtime-main.js.map": "/agree_form/static/js/runtime-main.a5e53479.js.map",
+    "static/js/2.2bd0243f.chunk.js": "/agree_form/static/js/2.2bd0243f.chunk.js",
+    "static/js/2.2bd0243f.chunk.js.map": "/agree_form/static/js/2.2bd0243f.chunk.js.map",
+    "static/js/3.cdb6ae58.chunk.js": "/agree_form/static/js/3.cdb6ae58.chunk.js",
+    "static/js/3.cdb6ae58.chunk.js.map": "/agree_form/static/js/3.cdb6ae58.chunk.js.map",
+    "index.html": "/agree_form/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/agree_form/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.2bd0243f.chunk.js.LICENSE.txt": "/agree_form/static/js/2.2bd0243f.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/agree_form/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5e53479.js",
+    "static/js/2.2bd0243f.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.b40f408f.chunk.js"
+  ]
+}
