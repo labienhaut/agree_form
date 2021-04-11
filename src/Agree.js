@@ -178,6 +178,7 @@ const Agree = () => {
     }
 
     return(
+        
         <div align='a_layer'>
             <div align='a_layer_inner'>
                 <div className="a_content">
