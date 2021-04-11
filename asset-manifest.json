@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/agree_form/static/css/main.c644108c.chunk.css",
+    "main.css": "/agree_form/static/css/main.8122efe1.chunk.css",
     "main.js": "/agree_form/static/js/main.4d7e28ce.chunk.js",
     "main.js.map": "/agree_form/static/js/main.4d7e28ce.chunk.js.map",
     "runtime-main.js": "/agree_form/static/js/runtime-main.444524a3.js",
@@ -10,14 +10,14 @@
     "static/js/3.1053a314.chunk.js": "/agree_form/static/js/3.1053a314.chunk.js",
     "static/js/3.1053a314.chunk.js.map": "/agree_form/static/js/3.1053a314.chunk.js.map",
     "index.html": "/agree_form/index.html",
-    "static/css/main.c644108c.chunk.css.map": "/agree_form/static/css/main.c644108c.chunk.css.map",
+    "static/css/main.8122efe1.chunk.css.map": "/agree_form/static/css/main.8122efe1.chunk.css.map",
     "static/js/2.167ec29d.chunk.js.LICENSE.txt": "/agree_form/static/js/2.167ec29d.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/agree_form/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.444524a3.js",
     "static/js/2.167ec29d.chunk.js",
-    "static/css/main.c644108c.chunk.css",
+    "static/css/main.8122efe1.chunk.css",
     "static/js/main.4d7e28ce.chunk.js"
   ]
 }
