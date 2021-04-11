@@ -59,7 +59,7 @@ const Agree = () => {
 
         console.log("got agree2.png")
         const image1 = new Image();
-        image1.src = "/agree2.png"
+        image1.src = "https://labienhaut.github.io/agree_form/agree2.png"
         image1.onload = () => {
             ctx2.drawImage(image1, 0, 0);
         };
@@ -68,7 +68,7 @@ const Agree = () => {
 
         console.log("got agree1.png")
         const image2 = new Image();
-        image2.src = "/agree1.png"
+        image2.src = "https://labienhaut.github.io/agree_form/agree1.png"
         image2.onload = () => {
             ctx3.drawImage(image2, 0, 0);
         };
