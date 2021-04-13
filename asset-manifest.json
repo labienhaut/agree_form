@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/agree_form/static/css/main.8122efe1.chunk.css",
-    "main.js": "/agree_form/static/js/main.2528545f.chunk.js",
-    "main.js.map": "/agree_form/static/js/main.2528545f.chunk.js.map",
+    "main.css": "/agree_form/static/css/main.6c2ff19c.chunk.css",
+    "main.js": "/agree_form/static/js/main.4d0d4d3f.chunk.js",
+    "main.js.map": "/agree_form/static/js/main.4d0d4d3f.chunk.js.map",
     "runtime-main.js": "/agree_form/static/js/runtime-main.444524a3.js",
     "runtime-main.js.map": "/agree_form/static/js/runtime-main.444524a3.js.map",
     "static/js/2.167ec29d.chunk.js": "/agree_form/static/js/2.167ec29d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.1053a314.chunk.js": "/agree_form/static/js/3.1053a314.chunk.js",
     "static/js/3.1053a314.chunk.js.map": "/agree_form/static/js/3.1053a314.chunk.js.map",
     "index.html": "/agree_form/index.html",
-    "static/css/main.8122efe1.chunk.css.map": "/agree_form/static/css/main.8122efe1.chunk.css.map",
+    "static/css/main.6c2ff19c.chunk.css.map": "/agree_form/static/css/main.6c2ff19c.chunk.css.map",
     "static/js/2.167ec29d.chunk.js.LICENSE.txt": "/agree_form/static/js/2.167ec29d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.444524a3.js",
     "static/js/2.167ec29d.chunk.js",
-    "static/css/main.8122efe1.chunk.css",
-    "static/js/main.2528545f.chunk.js"
+    "static/css/main.6c2ff19c.chunk.css",
+    "static/js/main.4d0d4d3f.chunk.js"
   ]
 }
