@@ -59,7 +59,8 @@ const Agree = () => {
 
         console.log("got agree2.png")
         const image1 = new Image();
-        image1.src = "https://labienhaut.github.io/agree_form/agree2.png"
+        image1.src = "https://labienhaut.github.io/agree_form/agree2.png";
+        image1.crossOrigin = 'Anonymous';
         image1.onload = () => {
             ctx2.drawImage(image1, 0, 0);
         };
@@ -68,15 +69,11 @@ const Agree = () => {
 
         console.log("got agree1.png")
         const image2 = new Image();
-        image2.src = "https://labienhaut.github.io/agree_form/agree1.png"
+        image2.src = "https://labienhaut.github.io/agree_form/agree1.png";
+        image2.crossOrigin = 'Anonymous';
         image2.onload = () => {
             ctx3.drawImage(image2, 0, 0);
         };
-
-        setlinkFlag('true')
-
-        console.log('linkFlag :')
-        console.log(linkFlag)
         
     }, []);
 
@@ -99,7 +96,7 @@ const Agree = () => {
     }, [imgURL3])
 
     const handleSave = () => {
-        console.log("handleSave start")
+        //console.log("handleSave start")
 
         let ctx2 = canvasRef2.current.getContext("2d")
         let ctx3 = canvasRef3.current.getContext("2d")
@@ -151,11 +148,15 @@ const Agree = () => {
             ctx3.fillText(dong, 461, 410);
             ctx3.fillText(hosu, 573, 410);
 
-            ctx3.font = '14px serif';
-            ctx3.fillText(phonenum, 683, 405);
-            ctx3.fillText(nickname, 850, 395);
-            ctx3.fillText(email, 850, 413);
-            ctx3.fillText('V', 713, 1311);
+            ctx3.font = '16px serif';
+            ctx3.fillText(phonenum, 681, 405);
+
+            ctx3.font = 'bold 15px serif';
+            ctx3.fillText(nickname, 848, 395);
+            ctx3.fillText(email, 848, 415);
+
+            ctx3.font = 'bold 22px serif';
+            ctx3.fillText('✓', 713, 1313);
 
             ctx3.font = '24px serif';
             ctx3.fillText(mm, 895, 1427);
@@ -170,11 +171,9 @@ const Agree = () => {
 
         setlinkFlag(true)
 
-        console.log("linkFlag :")
-        console.log(linkFlag)
-        console.log("handleSave end")
-
-        console.log("handleSave end")
+        //console.log("linkFlag :")
+        //console.log(linkFlag)
+        //console.log("handleSave end")
     }
 
     return(
@@ -276,9 +275,9 @@ const Agree = () => {
                     <br></br>
 
                         <div align='center' style={{ display: linkFlag === true ? 'block': 'none'}}>
-                            <a href="" id="agree_down1" download> 동의서 다운로드 </a>
+                            <a href="" id="agree_down1" download='동의서.png'> 동의서 다운로드 </a>
                             &nbsp;&nbsp;
-                            <a href="" id="agree_down2" download> 위임장 다운로드 </a>
+                            <a href="" id="agree_down2" download='위임장.png'> 위임장 다운로드 </a>
                         </div>
                         <br></br>
                         <div width='400px' height='100px'>
