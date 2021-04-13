@@ -178,128 +178,126 @@ const Agree = () => {
 
     return(
         
-        <div align='a_layer'>
-            <div align='a_layer_inner'>
-                <div className="a_content">
-                    <h1 align='center'>과천 푸르지오 라비엔오 <br></br> 입주예정자 협의회 <br></br>
-                        동의서 및 위임장 작성</h1>
-                    이름 : <input type="text"
-                            name="name"
-                            placeholder="이름"
-                            onChange={onChangeUsername}
-                    />
-                    <br></br>
-                    <br></br>
-                    생년월일 : <input type="text"
-                            name="birthday"
-                            placeholder="생년/월/일"
-                            onChange={onChangeBirthday}
-                    />
-                    <br></br>
-                    <br></br>
-                    &nbsp; &nbsp; 동 : <input type="text"
-                            name="dong"
-                            placeholder="동"
-                            onChange={onChangeDong}
-                    />
-                    <br></br>
-                    <br></br>
-                    호수 : <input type="text"
-                            name="hosu"
-                            placeholder="호수"
-                            onChange={onChangeHosu}
-                    />
-                    <br></br>
-                    <br></br>
-                    전화번호 : <input type="text"
-                            name="phonenum"
-                            placeholder="전화번호"
-                            onChange={onChangePhonenum}
-                    />
-                    <br></br>
-                    <br></br>
-                    카페 닉네임 : <input type="text"
-                            name="nickname"
-                            placeholder="카페 닉네임"
-                            onChange={onChangeNickname}
-                    />
-                    <br></br>
-                    <br></br>
-                    이메일 주소 : <input type="text"
-                            name="email"
-                            placeholder="이메일 주소"
-                            onChange={onChangeEmail}
-                    />
-                    <br></br>
-                    <br></br>
-                    <div align='center'>
-                    서명 : <br></br>
+        <div align='a_bg'>
+            <div className="a_content">
+                <h1 align='center'>과천 푸르지오 라비엔오 <br></br> 입주예정자 협의회 <br></br>
+                    동의서 및 위임장 작성</h1>
+                이름 : <input type="text"
+                        name="name"
+                        placeholder="이름"
+                        onChange={onChangeUsername}
+                />
+                <br></br>
+                <br></br>
+                생년월일 : <input type="text"
+                        name="birthday"
+                        placeholder="생년/월/일"
+                        onChange={onChangeBirthday}
+                />
+                <br></br>
+                <br></br>
+                &nbsp; &nbsp; 동 : <input type="text"
+                        name="dong"
+                        placeholder="동"
+                        onChange={onChangeDong}
+                />
+                <br></br>
+                <br></br>
+                호수 : <input type="text"
+                        name="hosu"
+                        placeholder="호수"
+                        onChange={onChangeHosu}
+                />
+                <br></br>
+                <br></br>
+                전화번호 : <input type="text"
+                        name="phonenum"
+                        placeholder="전화번호"
+                        onChange={onChangePhonenum}
+                />
+                <br></br>
+                <br></br>
+                카페 닉네임 : <input type="text"
+                        name="nickname"
+                        placeholder="카페 닉네임"
+                        onChange={onChangeNickname}
+                />
+                <br></br>
+                <br></br>
+                이메일 주소 : <input type="text"
+                        name="email"
+                        placeholder="이메일 주소"
+                        onChange={onChangeEmail}
+                />
+                <br></br>
+                <br></br>
+                <div align='center'>
+                서명 : <br></br>
+                </div>
+                <div  style={{
+                    width: "350px",
+                    height: "150px",
+                    border: "1px solid #272727"
+                    }}>
+                <CanvasDraw
+                    ref={canvasDrawRef}
+                    hideInterface 
+                    hideGrid
+                    background={"none"}
+                    brushColor={"#000000"}
+                    brushRadius={1}
+                    lazyRadius={2}
+                    canvasWidth={350}
+                    canvasHeight={150}
+                />
+                <button onClick={handleSave}>
+                    완료
+                </button>
+                &nbsp;&nbsp;
+                <button
+                    onClick={() => {
+                        canvasDrawRef.current.clear();
+                    }}
+                >
+                    삭제
+                </button>
+                &nbsp;&nbsp;
+                <button
+                    onClick={() => {
+                        canvasDrawRef.current.undo();
+                    }}
+                >
+                    Undo
+                </button>
+
+                <br></br>
+                <br></br>
+
+                    <div align='center' style={{ display: linkFlag === true ? 'block': 'none'}}>
+                        <a href="" id="agree_down1" download='동의서.png'> 동의서 다운로드 </a>
+                        &nbsp;&nbsp;
+                        <a href="" id="agree_down2" download='위임장.png'> 위임장 다운로드 </a>
                     </div>
-                    <div  style={{
-                        width: "350px",
-                        height: "150px",
-                        border: "1px solid #272727"
-                        }}>
-                    <CanvasDraw
-                        ref={canvasDrawRef}
-                        hideInterface 
-                        hideGrid
-                        background={"none"}
-                        brushColor={"#000000"}
-                        brushRadius={1}
-                        lazyRadius={2}
-                        canvasWidth={350}
-                        canvasHeight={150}
-                    />
-                    <button onClick={handleSave}>
-                        완료
-                    </button>
-                    &nbsp;&nbsp;
-                    <button
-                        onClick={() => {
-                            canvasDrawRef.current.clear();
-                        }}
-                    >
-                        삭제
-                    </button>
-                    &nbsp;&nbsp;
-                    <button
-                        onClick={() => {
-                            canvasDrawRef.current.undo();
-                        }}
-                    >
-                        Undo
-                    </button>
-
                     <br></br>
-                    <br></br>
+                    <div width='400px' height='100px'>
 
-                        <div align='center' style={{ display: linkFlag === true ? 'block': 'none'}}>
-                            <a href="" id="agree_down1" download='동의서.png'> 동의서 다운로드 </a>
-                            &nbsp;&nbsp;
-                            <a href="" id="agree_down2" download='위임장.png'> 위임장 다운로드 </a>
-                        </div>
-                        <br></br>
-                        <div width='400px' height='100px'>
+                    </div>
+                    제공 : 아침향기
+                </div> {/* for canvasdraw */}
+            </div> {/* a_content */}
+        <br></br>
+        <br></br>
 
-                        </div>
-                        제공 : 아침향기
-                    </div> {/* for canvasdraw */}
-                </div> {/* a_content */}
-            </div> {/* a_layer_inner */}
-            <br></br>
-            <br></br>
+        <canvas ref={canvasRef2} width={1200} height={1694} style={{display: 'none'}}/>
+        <canvas ref={canvasRef3} width={1200} height={1694} style={{display: 'none'}}/>
 
-            <canvas ref={canvasRef2} width={1200} height={1694} style={{display: 'none'}}/>
-            <canvas ref={canvasRef3} width={1200} height={1694} style={{display: 'none'}}/>
-
-            {/*
-            <div style={{
-                visibility: "hidden"
-                }}> 
-            <img src="" id={"agree_img"}/>
-            </div>
-            */}
+        {/*
+        <div style={{
+            visibility: "hidden"
+            }}> 
+        <img src="" id={"agree_img"}/>
+        </div>
+        */}
         </div>
     );
 };

@@ -1,14 +1,10 @@
-.a_layer {
-    display: table;  
-    width: 100%;
-    height: 100%;
-    position:relative;
-}
-    
-.a_layer_inner {
-    display: table-cell;
-    text-align: left;
-    vertical-align: middle;
+.a_bg {
+    height: 100vh;
+    margin-top: 0%;
+    margin-left: 0%;
+    display: flex;
+    justify-content: center;
+    background: lightgray;
 }
        
 .a_content {
@@ -16,8 +12,6 @@
     border: 20px solid lightblue;
     padding: 5px 20px;
     text-align: right;
-    position: absolute;
     width: 352px;
     height: 710px;
-    left:0%;
 }
