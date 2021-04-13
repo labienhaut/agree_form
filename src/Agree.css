@@ -9,9 +9,9 @@
        
 .a_content {
     display: inline-block;
-    border: 20px solid lightblue;
-    padding: 5px 20px;
+    border: 13px solid lightblue;
+    padding: 5px 10px;
     text-align: right;
-    width: 352px;
+    width: 320px;
     height: 710px;
 }

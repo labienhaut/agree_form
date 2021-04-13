@@ -235,7 +235,7 @@ const Agree = () => {
                 서명 : <br></br>
                 </div>
                 <div  style={{
-                    width: "350px",
+                    width: "318px",
                     height: "150px",
                     border: "1px solid #272727"
                     }}>
@@ -247,7 +247,7 @@ const Agree = () => {
                     brushColor={"#000000"}
                     brushRadius={1}
                     lazyRadius={2}
-                    canvasWidth={350}
+                    canvasWidth={318}
                     canvasHeight={150}
                 />
                 <button onClick={handleSave}>
@@ -279,7 +279,7 @@ const Agree = () => {
                         <a href="" id="agree_down2" download='위임장.png'> 위임장 다운로드 </a>
                     </div>
                     <br></br>
-                    <div width='400px' height='100px'>
+                    <div width='318px' height='100px'>
 
                     </div>
                     제공 : 아침향기
