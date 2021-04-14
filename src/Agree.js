@@ -180,8 +180,8 @@ const Agree = () => {
         
         <div align='a_bg'>
             <div className="a_content">
-                <h1 align='center'>과천 푸르지오 라비엔오 <br></br> 입주예정자 협의회 <br></br>
-                    동의서 및 위임장 작성</h1>
+                <h2 align='center'>과천 푸르지오 라비엔오 <br></br> 입주예정자 협의회 <br></br>
+                    동의서 및 위임장 작성</h2>
                 이름 : <input type="text"
                         name="name"
                         placeholder="이름"
@@ -235,7 +235,7 @@ const Agree = () => {
                 서명 : <br></br>
                 </div>
                 <div  style={{
-                    width: "318px",
+                    width: "315px",
                     height: "150px",
                     border: "1px solid #272727"
                     }}>
@@ -247,10 +247,10 @@ const Agree = () => {
                     brushColor={"#000000"}
                     brushRadius={1}
                     lazyRadius={2}
-                    canvasWidth={318}
+                    canvasWidth={315}
                     canvasHeight={150}
                 />
-                <button onClick={handleSave}>
+                <button onClick={handleSave} style={{marginTop: "3px"}}>
                     완료
                 </button>
                 &nbsp;&nbsp;
@@ -258,6 +258,7 @@ const Agree = () => {
                     onClick={() => {
                         canvasDrawRef.current.clear();
                     }}
+                    style={{marginTop: "3px"}}
                 >
                     삭제
                 </button>
@@ -266,6 +267,7 @@ const Agree = () => {
                     onClick={() => {
                         canvasDrawRef.current.undo();
                     }}
+                    style={{marginTop: "3px"}}
                 >
                     Undo
                 </button>
@@ -279,10 +281,10 @@ const Agree = () => {
                         <a href="" id="agree_down2" download='위임장.png'> 위임장 다운로드 </a>
                     </div>
                     <br></br>
-                    <div width='318px' height='100px'>
+                    <div width='315px' height='100px'>
 
                     </div>
-                    제공 : 아침향기
+                    제공 : 아침향기, ver 0.0.2
                 </div> {/* for canvasdraw */}
             </div> {/* a_content */}
         <br></br>
