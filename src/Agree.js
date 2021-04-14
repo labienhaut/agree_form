@@ -180,7 +180,7 @@ const Agree = () => {
         
         <div align='a_bg'>
             <div className="a_content">
-                <h2 align='center'>과천 푸르지오 라비엔오 <br></br> 입주예정자 협의회 <br></br>
+                <h2 align='center' style={{marginTop: "10px"}}>과천 푸르지오 라비엔오 <br></br> 입주예정자 협의회 <br></br>
                     동의서 및 위임장 작성</h2>
                 이름 : <input type="text"
                         name="name"
@@ -188,50 +188,49 @@ const Agree = () => {
                         onChange={onChangeUsername}
                 />
                 <br></br>
-                <br></br>
                 생년월일 : <input type="text"
                         name="birthday"
                         placeholder="생년/월/일"
                         onChange={onChangeBirthday}
+                        style={{marginTop: "10px"}}
                 />
-                <br></br>
                 <br></br>
                 &nbsp; &nbsp; 동 : <input type="text"
                         name="dong"
                         placeholder="동"
                         onChange={onChangeDong}
+                        style={{marginTop: "10px"}}
                 />
-                <br></br>
                 <br></br>
                 호수 : <input type="text"
                         name="hosu"
                         placeholder="호수"
                         onChange={onChangeHosu}
+                        style={{marginTop: "10px"}}
                 />
-                <br></br>
                 <br></br>
                 전화번호 : <input type="text"
                         name="phonenum"
                         placeholder="전화번호"
                         onChange={onChangePhonenum}
+                        style={{marginTop: "10px"}}
                 />
-                <br></br>
                 <br></br>
                 카페 닉네임 : <input type="text"
                         name="nickname"
                         placeholder="카페 닉네임"
                         onChange={onChangeNickname}
+                        style={{marginTop: "10px"}}
                 />
-                <br></br>
                 <br></br>
                 이메일 주소 : <input type="text"
                         name="email"
                         placeholder="이메일 주소"
                         onChange={onChangeEmail}
+                        style={{marginTop: "10px"}}
                 />
                 <br></br>
-                <br></br>
-                <div align='center'>
+                <div align='center' style={{marginTop: "15px"}}>
                 서명 : <br></br>
                 </div>
                 <div  style={{
