@@ -283,7 +283,7 @@ const Agree = () => {
                     <div width='315px' height='100px'>
 
                     </div>
-                    제공 : 아침향기, ver 0.0.2
+                    제공 : 아침향기, ver 0.0.3
                 </div> {/* for canvasdraw */}
             </div> {/* a_content */}
         <br></br>
